@@ -102,7 +102,7 @@ $networkAdapter = Get-VMNetworkAdapter -VMName "$name"
 Connect-VMNetworkAdapter -VMName "$name" -Name "$($networkAdapter.name)" -SwitchName "Default Switch"
 
 # Create EFI disk
-$efiVHD = "D:\vhd\UEFI.vhdx"
+$efiVHD = "$env:EXECPATHS\EFI.vhdx"
 Add-VMHardDiskDrive -VMName "$name" -Path "$efiVHD" -ControllerType SCSI
 $efiDisk = Get-VMHardDiskDrive -VMName "$name"
 

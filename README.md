@@ -14,4 +14,5 @@ Run Disk Utility to erase your virtual disk
 ![20240827211608](https://github.com/user-attachments/assets/c9184c4f-abb2-43ea-be36-9dcc20ca3942)
 
 Reinstall macOS Monterey. Enjoy it.
+
 Thanks to balopez83
